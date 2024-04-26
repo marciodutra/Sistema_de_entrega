@@ -17,7 +17,7 @@ $result = mysqli_query($dbConn, $sql);
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Admin</title>
+    <title>Administrador</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -74,7 +74,7 @@ $result = mysqli_query($dbConn, $sql);
                             }
 
                             if (count == 0) {
-                                alert("Select any one record to delete!");
+                                alert("Selecione qualquer registro para excluir!");
                                 return false;
                             } else {
                                 return confirm(msg);
@@ -89,7 +89,7 @@ $result = mysqli_query($dbConn, $sql);
                             </tr>
                             <tr>
                                 <td class="LargeBlue" bgcolor="#FFFFFF" align="left">
-                                    <div class="Partext1" align="center"><strong>Update Shipment </strong></div>
+                                    <div class="Partext1" align="center"><strong>Atualizar remessa </strong></div>
                                 </td>
                             </tr>
                         </tbody>
@@ -110,10 +110,10 @@ $result = mysqli_query($dbConn, $sql);
                                 <td class="newtext" bgcolor="#EDEDED" width="6%">
                                     <div align="center">Edit</div>
                                 </td>
-                                <td class="newtext" bgcolor="#EDEDED" width="10%">Consignment No </td>
-                                <td class="newtext" bgcolor="#EDEDED" width="7%">Shipper</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="11%">Receiver</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="11%">Pickup Date/Time</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="10%">Número da remessa </td>
+                                <td class="newtext" bgcolor="#EDEDED" width="7%">Expedidor</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="11%">Receptor</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="11%">Data/hora de coleta</td>
                                 <td class="newtext" bgcolor="#EDEDED" width="9%">Status</td>
                             </tr>
                             <?php

@@ -1,81 +1,79 @@
-# Delivery Management System
+# Sistema de gerenciamento de entrega
 
-ASE Course Project Made by TY-C Group 46.
+Projeto de curso ASE feito pelo TY-C Group 46.
 
-##### Roles & Responsibilities
+##### Funções e responsabilidades
 
-| Name             | Roll no. | Contribution                                |
+| Nome | Núm. da lista. | Contribuição |
 | ---------------- | -------- | ------------------------------------------- |
-| Mihir Rabade     | 17       | Testing & Debugging                         |
-| Prachi Pandey    | 34       | Database (Linking office & Manager)         |
-| Neel Parekh      | 38       | Front end (Office Details, Manager Details) |
-| Chaitanya Pathak | 42       | Database (Linking Shipment details)         |
-| Rashi Wase       | 74       | Front end (Adding Shipment details)         |
+| Mihir Rabade | 17 | Teste e depuração |
+| Prachi Pandey | 34 | Banco de dados (ligando escritório e gerente) |
+| Neel Parekh | 38 | Front-end (detalhes do escritório, detalhes do gerente) |
+| Chaitanya Pathak | 42 | Banco de dados (vinculando detalhes da remessa) |
+| Rashi Wasa | 74 | Front-end (adicionando detalhes da remessa) |
+# Introdução
 
-# Introduction
+- O principal objetivo do Sistema de Gerenciamento de Entrega é manter um **controle de entregas.**
+- O projeto começa adicionando detalhes das filiais e funcionários que trabalham em suas respectivas filiais.
+- Em seguida, a entrega é **marcada como** programada para entrega.
+- Agora, quando o pacote é recebido pela agência receptora, eles entregam o pacote e **o status da entrega é atualizado** pela agência remetente.
 
-- The main aim of Delivery Management System is to keep a **track records of deliveries.** 
-- The project starts by adding details of branch and staffs working in their respective branches. 
-- Then, the delivery is **marked as** scheduled for delivery. 
-- Now, when the parcel is received by the receiver branch, they deliver the parcel and **delivery status is updated** by the sender branch.
+Esses sistemas ajudam os proprietários de pequenas empresas a acompanhar suas entregas de maneira mais eficiente e, assim, economizar tempo e energia.
 
-Such systems help small business owners to keep a track of their deliveries in more efficient way & thus save time & energy.
+## Escopo do Projeto
 
-## Project Scope
+Os usuários deste projeto são os seguintes -
 
-The users of this project are as follows - 
+1. Clientes (que podem **apenas verificar** o status de sua entrega)
+2. Gerente (Quem **gerencia** o escritório)
+3. Funcionários de escritório (quem insere e atualiza os **detalhes** da entrega)
 
-1. Clients (Who can **only check** the status of their delivery)
-2. Manager (Who **manages** the office)
-3. Office workers (Who enters & updates the delivery **details**)
+O escopo deste projeto é manter registros das entregas.
 
-The scope of this project is to keep track records of the deliveries.
+O sistema será usado para atividades do dia a dia, como devolução, detalhes da empresa, taxas de hub, reservas, não entrega e centros de coleta.
 
-The system will be used for day to day activities like out return, company details, hub rates, booking, non delivery and pickup centers.
+Na verdade não é fácil fazer esse processo manualmente porque ficaria muito agitado.
 
-Actually It is not easy to do this process manually because it would become very hectic.
+Por isso, recomenda-se automatizar o processo através do desenvolvimento de software relevante, à medida que o mundo passa do trabalho manual para a era da informação e da tecnologia, onde a informatização se torna importante em todas as esferas da vida.
 
-Hence it is recommended to automate the process by developing the relevant software as the world is moving from manual working to information and technology era where computerization becomes important in all walks of life.
+## Funcionalidade
 
-## Functionality 
+Nosso projeto oferece as seguintes funcionalidades -
 
-Our project provides the following functionalities -
+1. Adicione nova equipe e filial.
+2. Insira os detalhes da entrega.
+3. Agende a data de entrega e a equipe.
+4. Registre a data de entrega.
+5. Atualize o status atual da entrega.
 
-1. Add new Staff and Branch.
-2. Enter details of Delivery.
-3. Schedule the delivery date and staff.
-4. Record the date of delivery.
-5. Update the Delivery current status.
+## Diagrama de casos de uso
 
-## Use Case Diagram
+![Diagrama de caso de uso para sistema de gerenciamento de entrega](https://i.imgur.com/eTsdWQA.png)
 
-![Use case Diagram for Delivery management System](https://i.imgur.com/eTsdWQA.png)
+## Visualização Visual
 
-## Visual Preview
+##### Página de introdução
 
-##### Intro Page
+![Página de introdução](https://i.imgur.com/a3zBcHX.png)
 
-![Intro Page](https://i.imgur.com/a3zBcHX.png)
+##### Página de login do proprietário da empresa
 
-##### Login page for the business owner
+![Página de login do administrador](https://i.imgur.com/mxm5kXO.png)
 
-![Admin login page](https://i.imgur.com/mxm5kXO.png)
+##### Adicionando detalhes de entrega
 
-##### Adding Delivery details
+![Adicionar página de remessa](https://i.imgur.com/HBlr7Dj.png)
 
-![Add shipment page](https://i.imgur.com/HBlr7Dj.png)
+##### Status de entrega página-1
 
-##### Delivery status page-1
+![Inserindo o número da remessa](https://i.imgur.com/0e64v3z.png)
 
-![Entering Consignment number](https://i.imgur.com/0e64v3z.png) 
-
-##### Delivery status page-2
+##### Status de entrega página-2
 
 ![image-20201219102012845](https://i.imgur.com/GlTZr2D.png)
-
 ## Code Snippet
 
-Code for database connection
+Código para conexão com banco de dados
 
 ```php
 <?php

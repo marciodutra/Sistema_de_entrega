@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Courier / Cargo Tracking Script in PHP - Ver 0.97</title>
+    <title>Rastreamento de correio / carga</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <script type="text/JavaScript">
         <!--
@@ -81,7 +81,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <div onClick="MM_openBrWindow('printview1.php?id=2233','pv','scrollbars=yes,resizable=yes,width=600,height=500')" align="right"><a href="#" class="gentxt">Printable Version </a></div>
+                                                    <div onClick="MM_openBrWindow('printview1.php?id=2233','pv','scrollbars=yes,resizable=yes,width=600,height=500')" align="right"><a href="#" class="gentxt">Versão para impressão </a></div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -91,7 +91,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                     <table class="blackbox" border="0" cellpadding="1" cellspacing="1" align="center" width="550">
                                         <tbody>
                                             <tr>
-                                                <td bgcolor="#FEE9A9" height="27"><strong>&nbsp;Consignment No</strong> : 2233</td>
+                                                <td bgcolor="#FEE9A9" height="27"><strong>&nbsp;Número da remessa</strong> : 2233</td>
                                             </tr>
                                             <tr>
                                                 <td><br>
@@ -102,16 +102,16 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                                                     <table border="0" cellpadding="3" cellspacing="0" width="250">
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td class="paratext"><em><strong>Shipper </strong></em></td>
+                                                                                <td class="paratext"><em><strong>Expedidor </strong></em></td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td class="paratext"><em>Tousif Khan</em></td>
+                                                                                <td class="paratext"><em>Márcio Dutra</em></td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td class="paratext"><em>020 253623</em></td>
                                                                             </tr>
                                                                             <tr>
-                                                                                <td class="paratext"><em>10 metro tower, kondwa</em></td>
+                                                                                <td class="paratext"><em>Torre do metrô 10, kondwa</em></td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
@@ -120,7 +120,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                                                     <table border="0" cellpadding="3" cellspacing="0" width="250">
                                                                         <tbody>
                                                                             <tr>
-                                                                                <td class="paratext"><em><strong>Receiver</strong></em></td>
+                                                                                <td class="paratext"><em><strong>Receptor</strong></em></td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td class="paratext"><em>Rizwan Ahmed</em></td>
@@ -140,19 +140,19 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                                     <table border="0" cellpadding="3" cellspacing="5" align="center" width="520">
                                                         <tbody>
                                                             <tr>
-                                                                <td><strong>Origin</strong></td>
+                                                                <td><strong>Origem</strong></td>
                                                                 <td>XYZ</td>
-                                                                <td><strong>Destination</strong></td>
+                                                                <td><strong>Destino</strong></td>
                                                                 <td>ABC</td>
                                                             </tr>
                                                             <tr>
                                                                 <td colspan="4" bgcolor="#F0F0F0" height="1"></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><strong>Pickup date/Time</strong></td>
+                                                                <td><strong>Data/hora de retirada</strong></td>
                                                                 <td>18/01/2011<span class="gentxt"> -
                                                                         4 </span></td>
-                                                                <td><strong>Weight</strong></td>
+                                                                <td><strong>Peso</strong></td>
                                                                 <td>20 kg</td>
                                                             </tr>
                                                             <tr>
@@ -162,14 +162,14 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                                                 <td><strong>Courier</strong></td>
                                                                 <td>XYZ</td>
                                                                 <td><strong>Status</strong></td>
-                                                                <td><span class="style1">In Transit</span></td>
+                                                                <td><span class="style1">Em trânsito</span></td>
                                                             </tr>
                                                             <tr>
                                                                 <td colspan="4" bgcolor="#F0F0F0" height="1"></td>
                                                             </tr>
 
                                                             <tr>
-                                                                <td><strong>Expected Delivery Date</strong></td>
+                                                                <td><strong>Data prevista de entrega</strong></td>
                                                                 <td colspan="3">25/01/2011</td>
                                                             </tr>
                                                             <tr>
@@ -193,19 +193,19 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
                                         <tbody>
                                             <tr>
                                                 <td bgcolor="#D9F2FF" align="right">
-                                                    <div align="center">Date</div>
+                                                    <div align="center">Data</div>
                                                 </td>
                                                 <td bgcolor="#D9F2FF" align="right">
-                                                    <div align="center">Time </div>
+                                                    <div align="center">Tempo </div>
                                                 </td>
                                                 <td bgcolor="#D9F2FF">
-                                                    <div align="center">Location </div>
+                                                    <div align="center">Localização </div>
                                                 </td>
                                                 <td bgcolor="#D9F2FF">
                                                     <div align="center">Status</div>
                                                 </td>
                                                 <td bgcolor="#D9F2FF">
-                                                    <div align="center">Comments</div>
+                                                    <div align="center">Comentários</div>
                                                 </td>
                                             </tr>
                                         </tbody>

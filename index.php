@@ -59,36 +59,36 @@
           <tr bgcolor="#EFF7FC">
             <td class="aalpha" height="19">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Features</strong>
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Características</strong>
             </td>
           </tr>
           <tr>
-            <td class="aalpha"><strong><img src="home_files/arrow_right.gif" height="9" width="9"> Demo</strong></td>
+            <td class="aalpha"><strong><img src="home_files/arrow_right.gif" height="9" width="9"> Demonstração</strong></td>
           </tr>
           <tr bgcolor="#EFF7FC">
             <td class="aalpha">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Purchase
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Comprar
             </strong>
             </td>
           </tr>
           <tr>
             <td class="aalpha">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Screenshots
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Capturas de tela
             </strong></td>
           </tr>
           <tr bgcolor="#EFF7FC">
             <td class="aalpha">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Platform Requirements
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Requisitos da plataforma
             </strong>
             </td>
           </tr>
           <tr>
             <td class="aalpha">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> License Agreement
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Contrato de licença
             </strong>
             </td>
           </tr>
@@ -102,14 +102,14 @@
           <tr bgcolor="#EFF7FC">
             <td class="aalpha" bgcolor="#FFFFFF">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Testimonials
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Depoimentos
             </strong>
             </td>
           </tr>
           <tr bgcolor="#EFF7FC">
             <td class="aalpha" bgcolor="#FFFFFF">
             <strong>
-            <img src="home_files/arrow_right.gif" height="9" width="9"> Contact
+            <img src="home_files/arrow_right.gif" height="9" width="9"> Contato
             </strong>
             </td>
           </tr>
@@ -127,12 +127,12 @@
 
 
                                         <!-- New text -->
-                                        <strong>This project deals with the ‘Delivery Management System’.</strong> <br><br>
-                                        The system will be used for day to day activities like out return, company details, hub rates, booking, non delivery and pickup centers.<br><br>
+                                        <strong>Este projeto trata do ‘Sistema de Gerenciamento de Entrega’.</strong> <br><br>
+                                        O sistema será usado para atividades do dia a dia, como devolução, detalhes da empresa, taxas de hub, reservas, não entrega e centros de coleta.<br><br>
 
-                                        Actually It is not easy to do this process manually because it would become very hectic.<br><br>
+                                        Na verdade não é fácil fazer esse processo manualmente porque ficaria muito agitado.<br><br>
 
-                                        Hence it is recommended to automate the process by developing the relevant software as the world is moving from manual working to information and technology era where computerization becomes important in all walks of life.<br>
+                                        Portanto, recomenda-se automatizar o processo desenvolvendo o software relevante, à medida que o mundo passa do trabalho manual para a era da informação e da tecnologia, onde a informatização se torna importante em todas as esferas da vida.<br>
                                     </p>
 
                                 </td>
@@ -156,25 +156,25 @@
                                             <tr bgcolor="#EFF7FC">
                                                 <td class="aalpha" bgcolor="#EFF7FC" height="19">
                                                     <div align="center">
-                                                        <p><strong> Status Check </strong>:</p>
+                                                        <p><strong> Verificação de entrega </strong>:</p>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr bgcolor="#EFF7FC">
                                                 <td class="aalpha" bgcolor="#FFFFFF" height="19">
-                                                    <div align="center"><a href="track-status.php" target="_self">Click Here </a> </div>
+                                                    <div align="center"><a href="track-status.php" target="_self">Clique aqui </a> </div>
                                                 </td>
                                             </tr>
                                             <tr bgcolor="#EFF7FC">
                                                 <td class="aalpha" bgcolor="#EFF7FC" height="19">
                                                     <div align="center">
-                                                        <p><strong> ADMIN Login </strong>:</p>
+                                                        <p><strong> Login de administrador </strong>:</p>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr bgcolor="#EFF7FC">
                                                 <td class="aalpha" bgcolor="#FFFFFF" height="19">
-                                                    <div align="center"><a href="login.php" target="_self">Click here </a> </div>
+                                                    <div align="center"><a href="login.php" target="_self">Clique aqui </a> </div>
                                                 </td>
                                             </tr>
                                         </tbody>

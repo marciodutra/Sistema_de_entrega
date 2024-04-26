@@ -19,7 +19,7 @@ while ($data = mysqli_fetch_array($result)) {
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Admin</title>
+    <title>Administrador</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -158,7 +158,7 @@ while ($data = mysqli_fetch_array($result)) {
                         <tbody>
                             <tr>
 
-                                <td class="Partext1" bgcolor="F9F5F5" align="center"><strong>Edit Shipment </strong></td>
+                                <td class="Partext1" bgcolor="F9F5F5" align="center"><strong>Editar remessa </strong></td>
 
                             </tr>
 
@@ -185,7 +185,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td width="55%">
-                                                        <div align="left" class="style3">Shipper Name : </div>
+                                                        <div align="left" class="style3">Nome do remetente : </div>
                                                     </td>
 
                                                     <td width="45%">
@@ -200,7 +200,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td>
-                                                        <div align="left" class="style3">Shipper Phone : </div>
+                                                        <div align="left" class="style3">Telefone do remetente : </div>
                                                     </td>
 
                                                     <td>
@@ -214,7 +214,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td>
-                                                        <div align="left" class="style3">Shipper Address : </div>
+                                                        <div align="left" class="style3">Endereço do remetente : </div>
                                                     </td>
 
                                                     <td>
@@ -238,7 +238,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td width="55%" class="style3">
-                                                        <div align="left">Receiver Name : </div>
+                                                        <div align="left">Nome do recebedor : </div>
                                                     </td>
 
                                                     <td width="45%" class="style3">
@@ -250,7 +250,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td class="style3">
-                                                        <div align="left">Receiver Phone : </div>
+                                                        <div align="left">Telefone receptor : </div>
                                                     </td>
 
                                                     <td class="style3">
@@ -263,7 +263,7 @@ while ($data = mysqli_fetch_array($result)) {
                                                 <tr>
 
                                                     <td class="style3">
-                                                        <div align="left">Receiver Address : </div>
+                                                        <div align="left">Endereço do destinatário : </div>
                                                     </td>
 
                                                     <td class="style3">
@@ -288,7 +288,7 @@ while ($data = mysqli_fetch_array($result)) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right" width="336">Consignment No : </td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right" width="336">Número da remessa: </td>
 
                                 <td class="style3" bgcolor="#FFFFFF" width="394">
                                     <font color="#FF0000"><?php echo $cons_no; ?></font>&nbsp;
@@ -297,54 +297,54 @@ while ($data = mysqli_fetch_array($result)) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Ship Type :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Tipo de navio :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $type; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Weight :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Peso :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $weight; ?>&nbsp;kg</td>
                             </tr>
 														<tr>
 
-																<td class="style3" bgcolor="#FFFFFF" align="right">Delivery Boy :</td>
+																<td class="style3" bgcolor="#FFFFFF" align="right">Entregador :</td>
 
 																<td class="style3" bgcolor="#FFFFFF"><?php echo $delivery_boy_name; ?>&nbsp;</td>
 														</tr>
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Invoice no :</td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Número da fatura :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $invice_no; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Booking Mode :</td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Modo de reserva :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $book_mode; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Total freight : </td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Frete total : </td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $freight; ?>&nbsp;Rs.</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Mode : </td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Modo : </td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $mode; ?></td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Pickup Date/Time :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Data/hora de coleta :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF">
 
@@ -364,7 +364,7 @@ while ($data = mysqli_fetch_array($result)) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right" valign="top">Comments :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right" valign="top">Comentários :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF">&nbsp;<?php echo $comments; ?></td>
                             </tr>
@@ -386,7 +386,7 @@ while ($data = mysqli_fetch_array($result)) {
                                 <tr>
 
                                     <td colspan="3" bgcolor="#FFFFFF" align="right">
-                                        <div class="Partext1" align="center"><strong>UPDATE STATUS </strong>
+                                        <div class="Partext1" align="center"><strong>ATUALIZAR O STATUS </strong>
 
                                         </div>
                                     </td>
@@ -400,7 +400,7 @@ while ($data = mysqli_fetch_array($result)) {
 
                                 <tr>
 
-                                    <td class="Partext1" bgcolor="#FFFFFF" align="right" width="16%">New Location:</td>
+                                    <td class="Partext1" bgcolor="#FFFFFF" align="right" width="16%">Nova localização:</td>
 
                                     <td colspan="2" class="Partext1" bgcolor="#FFFFFF">
 
@@ -417,7 +417,7 @@ while ($data = mysqli_fetch_array($result)) {
 
                                 <tr>
 
-                                    <td class="Partext1" bgcolor="#FFFFFF" align="right">New Status: </td>
+                                    <td class="Partext1" bgcolor="#FFFFFF" align="right">Novo status: </td>
 
                                     <td class="Partext1" bgcolor="#FFFFFF" width="26%">
 
@@ -430,13 +430,13 @@ while ($data = mysqli_fetch_array($result)) {
 
                                         <select name="status">
 
-                                            <option value="In Transit">In Transit</option>
+                                            <option value="In Transit">Em trânsito</option>
 
-                                            <option value="Landed">Landed</option>
+                                            <option value="Landed">Parada</option>
 
-                                            <option value="Delayed">Delayed</option>
+                                            <option value="Delayed">Atrasada</option>
 
-                                            <option value="Completed">Completed</option>
+                                            <option value="Completed">Concluída</option>
                                             <option value="Onhold">Onhold</option>
                                         </select>
 
@@ -445,14 +445,14 @@ while ($data = mysqli_fetch_array($result)) {
 
                                     <td class="Partext1" bgcolor="#FFFFFF" width="58%">
                                         <div align="center">
-                                            <a href="process.php?action=delivered&cid=<?php echo $cid; ?>">Marked this shipment as to be <span class="style1">DELIVERED </span></a><span class="style1"></span>
+                                        <a href="process.php?action=delivered&cid=<?php echo $cid; ?>">Marcou esta remessa como sendo <span class="style1">ENTREGUE </span></a><span class ="estilo1"></span>
                                         </div>
                                     </td>
                                 </tr>
 
                                 <tr>
 
-                                    <td bgcolor="#FFFFFF" align="right"><span class="Partext1">Comments:</span></td>
+                                    <td bgcolor="#FFFFFF" align="right"><span class="Partext1">Comentários:</span></td>
 
                                     <td colspan="2" class="Partext1" bgcolor="#FFFFFF">
                                         <textarea name="comments" cols="40" rows="3" id="comments"></textarea>

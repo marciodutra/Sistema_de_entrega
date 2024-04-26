@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Courier / Cargo Tracking Script in PHP - Ver 0.97</title>
+    <title>Rastreamento de correio / carga</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -50,7 +50,7 @@
                                                     <td class="bottom" valign="middle">&nbsp;</td>
                                                 </tr>
                                                 <tr bgcolor="EFEFEF">
-                                                    <td valign="top">Office Manager is Added Successfully . <a href="manager-list.php">Click Here</a> To View all Office List </td>
+                                                <td valign="top">O Office Manager foi adicionado com sucesso. <a href="manager-list.php">Clique aqui</a> para ver toda a lista de escritórios </td>
                                                 </tr>
                                                 <tr bgcolor="EFEFEF">
                                                     <td class="TrackNormalBlue" bgcolor="#FFFFFF" valign="top">&nbsp;</td>

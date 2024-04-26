@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Courier / Cargo Tracking Script in PHP - Ver 0.97</title>
+    <title>Rastreamento de correio / carga</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -50,7 +50,7 @@
                                                     <td class="bottom" valign="middle">&nbsp;</td>
                                                 </tr>
                                                 <tr bgcolor="EFEFEF">
-                                                    <td valign="top">Delivery boy is Added Successfully . <a href="delivery-boy-list.php">Click Here</a> To View all Delivery boys' List </td>
+                                                <td valign="top">O entregador foi adicionado com sucesso. <a href="delivery-boy-list.php">Clique aqui</a> para ver a lista de todos os entregadores </td>
                                                 </tr>
                                                 <tr bgcolor="EFEFEF">
                                                     <td class="TrackNormalBlue" bgcolor="#FFFFFF" valign="top">&nbsp;</td>

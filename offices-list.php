@@ -15,7 +15,7 @@ $result = mysqli_query($dbConn, $sql);
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Admin</title>
+    <title>Administrador</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -72,7 +72,7 @@ $result = mysqli_query($dbConn, $sql);
                             }
 
                             if (count == 0) {
-                                alert("Select any one record to delete!");
+                                alert("Selecione qualquer registro para excluir!");
                                 return false;
                             } else {
                                 return confirm(msg);
@@ -105,12 +105,12 @@ $result = mysqli_query($dbConn, $sql);
                     <table class="blackbox" border="0" cellpadding="1" cellspacing="1" align="center" width="95%">
                         <tbody>
                             <tr class="BoldRED" bgcolor="#FFFFFF" style="height:20px;">
-                                <td class="newtext" bgcolor="#EDEDED" width="20%">Office Name </td>
-                                <td class="newtext" bgcolor="#EDEDED" width="20%">Address</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="10%">City</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="15%">Phone Numner</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="20%">Office Timing</td>
-                                <td class="newtext" bgcolor="#EDEDED" width="15%">Contact Person</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="20%">Nome do escritório </td>
+                                <td class="newtext" bgcolor="#EDEDED" width="20%">Endereço</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="10%">Cidade</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="15%">Número de telefone</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="20%">Horário do escritório</td>
+                                <td class="newtext" bgcolor="#EDEDED" width="15%">Pessoa de contato</td>
                             </tr>
                             <?php
 

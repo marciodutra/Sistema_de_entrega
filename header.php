@@ -30,37 +30,37 @@
 
                             </style>
                             <td height="30">
-                                <div align="center"><span class="headtext13 style2"><strong>SHIPMENT:</strong></span></div>
+                                <div align="center"><span class="headtext13 style2"><strong>ENVIO:</strong></span></div>
                             </td>
                             <td height="30">
-                                <div class="lowerstyle" align="center"> <a href="add-courier.php">Add</a></div>
+                                <div class="lowerstyle" align="center"> <a href="add-courier.php">Adicionar</a></div>
                             </td>
                             <td width="3">
                                 <div align="center">|</div>
                             </td>
                             <td height="30">
-                                <div class="lowerstyle" align="center"><a href="courier-list.php">Update </a></div>
+                                <div class="lowerstyle" align="center"><a href="courier-list.php">Atualizar </a></div>
                             </td>
                             <td width="3">
                                 <div align="center">|</div>
                             </td>
                             <td>
                                 <div class="lowerstyle" align="center">
-                                    <div align="center"><a href="search-edit.php">Search &amp; Edit </a></div>
+                                    <div align="center"><a href="search-edit.php">Procurar &amp; Editar </a></div>
                                 </div>
                             </td>
                             <td width="3">
                                 <div align="center">|</div>
                             </td>
                             <td height="30">
-                                <div align="center"><span class="headtext13 style2"><strong>REPORTS</strong></span><span class="heading"><strong> : </strong></span></div>
+                                <div align="center"><span class="headtext13 style2"><strong>RELATÓRIOS</strong></span><span class="heading"><strong> : </strong></span></div>
                             </td>
                             <td height="30">
-                                <div class="lowerstyle" align="center"><a href="delivered-list.php">Delivered </a> </div>
+                                <div class="lowerstyle" align="center"><a href="delivered-list.php">Entregue </a> </div>
                             </td>
                             <td width="3">|</td>
                             <td>
-                                <div class="lowerstyle" align="center"><a href="datewise-list.php">Datewise </a> </div>
+                                <div class="lowerstyle" align="center"><a href="datewise-list.php">Data </a> </div>
                             </td>
 
                             <td width="3">
@@ -70,16 +70,16 @@
 
 
                             <td height="30">
-                                <div align="center"><span class="headtext13 style2"><strong>Delivery Boy:</strong></span></div>
+                                <div align="center"><span class="headtext13 style2"><strong>Entregador:</strong></span></div>
                             </td>
                             <td height="30">
-                                <div class="lowerstyle" align="center"> <a href="add-new-delivery-boy.php">Add</a></div>
+                                <div class="lowerstyle" align="center"> <a href="add-new-delivery-boy.php">Adicionar</a></div>
                             </td>
                             <td width="3">
                                 <div align="center">|</div>
                             </td>
                             <td height="30">
-                                <div class="lowerstyle" align="center"><a href="delivery-boy-list.php">List all</a></div>
+                                <div class="lowerstyle" align="center"><a href="delivery-boy-list.php">Listar tudo</a></div>
                             </td>
 
 
@@ -96,22 +96,22 @@ if (isset($_SESSION['user_type'])) { // && $_SESSION['user_type'] == 'admin-role
                     <tbody>
                         <tr style="height:25px;">
                             <td bgcolor="#E2E2E2" width="4">&nbsp;</td>
-                            <td bgcolor="#E2E2E2" width="240">&nbsp;<b>Admin Menu</b></td>
+                            <td bgcolor="#E2E2E2" width="240">&nbsp;<b>Menu de administração</b></td>
                             <td bgcolor="#E2E2E2" width="130">
-                                <div align="center"><a href="offices-list.php" class="headtext13">Office Details</a></div>
+                                <div align="center"><a href="offices-list.php" class="headtext13">Detalhes do escritório</a></div>
                             </td>
                             <td bgcolor="#E2E2E2" width="10">|</td>
 
                             <td bgcolor="#E2E2E2" width="100">
-                                <div align="center"><a href="add-office.php" class="headtext13">Add New Office</a></div>
+                                <div align="center"><a href="add-office.php" class="headtext13">Adicionar novo escritório</a></div>
                             </td>
                             <td bgcolor="#E2E2E2" width="10">|</td>
                             <td bgcolor="#E2E2E2" width="162">
-                                <div align="center"><a href="manager-list.php" class="headtext13">Manager Details</a> </div>
+                                <div align="center"><a href="manager-list.php" class="headtext13">Detalhes do gerente</a> </div>
                             </td>
                             <td bgcolor="#E2E2E2" width="7">|</td>
                             <td bgcolor="#E2E2E2" width="125">
-                                <div align="center"><a href="add-new-officer.php" class="headtext13">Add New Manager</a></div>
+                                <div align="center"><a href="add-new-officer.php" class="headtext13">Adicionar novo gerente</a></div>
                             </td>
                         </tr>
                     </tbody>
@@ -133,7 +133,7 @@ if (isset($_SESSION['user_type'])) { // && $_SESSION['user_type'] == 'admin-role
                             </td>
                             <td bgcolor="#99CCFF" width="7">|</td>
                             <td bgcolor="#99CCFF" width="125">
-                                <div align="center"><a href="process.php?action=logOut" class="headtext13">Logout</a></div>
+                                <div align="center"><a href="process.php?action=logOut" class="headtext13">Sair</a></div>
                             </td>
                         </tr>
                     </tbody>

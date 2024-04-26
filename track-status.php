@@ -97,9 +97,10 @@ function MM_validateForm() { //v4.0
                                                         <div align="center">
                                                             <form action="track-result.php" method="post" name="form" id="form">
                                                                 <input name="Consignment" class="gentxt" id="Consignment" maxlength="50" type="text">
-                                                                <input name="Submit" type="submit" class="gentxt" onClick="MM_validateForm('Consignment','','R');return document.MM_returnValue" value="Track now">
+                                                                <input name="Submit" type="submit" class="gentxt" onClick="MM_validateForm('Consignment','','R');return document.MM_returnValue" value="Acompanhe agora">
                                                             </form>
                                                             <span class="gentxt">Ex: IXM53533553 </span>
+                                                            <a href="http://http://gerenciamntoentrega.rf.gd/">Voltar</a>
                                                         </div>
                                                     </td>
                                                 </tr>

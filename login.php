@@ -69,6 +69,7 @@ $result = mysqli_query($dbConn, $sql);
                             <tr>
                                 <td>
                                     <link href="css/style.css" rel="stylesheet" type="text/css">
+                                    <a href="index.php">Home</a>
                                     <style type="text/css">
                                         <!--
                                         .style2 {
@@ -135,7 +136,7 @@ $result = mysqli_query($dbConn, $sql);
                                                                                                                 </tr>
                                                                                                                 <tr>
                                                                                                                     <td colspan="3" class="smalltextgrey">
-                                                                                                                        <div class="headtext13" align="center"><strong>Administrator Login Area </strong></div>
+                                                                                                                        <div class="headtext13" align="center"><strong>Login do administrador Area </strong></div>
                                                                                                                     </td>
                                                                                                                 </tr>
                                                                                                                 <tr>
@@ -147,7 +148,7 @@ $result = mysqli_query($dbConn, $sql);
                                                                                                                     </td>
                                                                                                                 </tr>
                                                                                                                 <tr>
-                                                                                                                    <td width="115">&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Username</font>
+                                                                                                                    <td width="115">&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Nome de usuário</font>
                                                                                                                     </td>
                                                                                                                     <td width="3">:</td>
                                                                                                                     <td width="160">
@@ -155,13 +156,13 @@ $result = mysqli_query($dbConn, $sql);
                                                                                                                     </td>
                                                                                                                 </tr>
                                                                                                                 <tr>
-                                                                                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Password</font>
+                                                                                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Senha</font>
                                                                                                                     </td>
                                                                                                                     <td>:</td>
                                                                                                                     <td><input name="txtpassword" class="forminput" id="txtpassword" maxlength="20" type="password"></td>
                                                                                                                 </tr>
                                                                                                                 <tr>
-                                                                                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Office</font>
+                                                                                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-size:12px;">Escritório</font>
                                                                                                                     </td>
                                                                                                                     <td>:</td>
                                                                                                                     <td>
@@ -179,11 +180,12 @@ $result = mysqli_query($dbConn, $sql);
                                                                                                                 <tr>
                                                                                                                     <td>&nbsp;</td>
                                                                                                                     <td>&nbsp;</td>
-                                                                                                                    <td><input name="Submit" class="green-button" value="Login Now" type="submit" style="padding:5px 10px;font-weight:bold;"></td>
-                                                                                                                </tr>
+                                                                                                                    <td><input name="Submit" class="green-button" value="Logar" type="submit" style="padding:5px 10px;font-weight:bold;"></td>
+                                                                                                                </tr>                                                                                                                
                                                                                                             </tbody>
                                                                                                         </table>
                                                                                                 </form>
+                                                                                                
                                                                                 </td>
 
                                                                             </tr>
@@ -235,6 +237,7 @@ $result = mysqli_query($dbConn, $sql);
     </tr>
     </tbody>
     </table>
+    
 </body>
 
 </html>

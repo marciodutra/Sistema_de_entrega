@@ -8,7 +8,7 @@ isUser();
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Admin</title>
+    <title>Administrador</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -62,7 +62,7 @@ isUser();
                                                         <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%">
                                                             <tbody>
                                                                 <tr valign="top">
-                                                                    <td colspan="2" class="headtext13" height="25" valign="middle">Reports</td>
+                                                                    <td colspan="2" class="headtext13" height="25" valign="middle">Relatórios</td>
                                                                     <td height="25" colspan="3">&nbsp;</td>
                                                                 </tr>
                                                                 <tr valign="top">
@@ -75,7 +75,7 @@ isUser();
                                                                     <td width="11%">
                                                                         <div align="center"><span class="style110"><img src="images/12258.gif" border="0" height="32" width="30"></span> </div>
                                                                     </td>
-                                                                    <td class="smallpoints" valign="middle"><a href="datewise-list.php" class="link">Datewise Report </a></td>
+                                                                    <td class="smallpoints" valign="middle"><a href="datewise-list.php" class="link">Data do relatório </a></td>
                                                                     <td colspan="3" rowspan="3"><img src="images/imagesform.jpg" width="103" height="95"><a href="http://tracking4web.com/admin/prealertxlreport.php" class="link"></a></td>
                                                                 </tr>
                                                                 <tr valign="top">
@@ -88,7 +88,7 @@ isUser();
                                                                     <td>
                                                                         <div align="center"><span class="style110"><img src="images/12258.gif" border="0" height="32" width="30"></span></div>
                                                                     </td>
-                                                                    <td class="smallpoints" valign="middle"><a href="delivered-list.php" class="link">Delivered Report </a></td>
+                                                                    <td class="smallpoints" valign="middle"><a href="delivered-list.php" class="link">Relatório entregue </a></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>

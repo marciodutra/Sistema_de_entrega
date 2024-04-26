@@ -20,7 +20,7 @@ if ($no == 1) {
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Admin</title>
+    <title>Administrador</title>
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -159,7 +159,7 @@ if ($no == 1) {
                         <tbody>
                             <tr>
 
-                                <td class="Partext1" bgcolor="F9F5F5" align="center"><strong>Edit Shipment </strong></td>
+                                <td class="Partext1" bgcolor="F9F5F5" align="center"><strong>Editar remessa </strong></td>
 
                             </tr>
 
@@ -186,7 +186,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td width="55%">
-                                                        <div align="left" class="style3">Shipper Name : </div>
+                                                        <div align="left" class="style3">Nome do remetente : </div>
                                                     </td>
 
                                                     <td width="45%">
@@ -201,7 +201,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td>
-                                                        <div align="left" class="style3">Shipper Phone : </div>
+                                                        <div align="left" class="style3">Telefone do remetente : </div>
                                                     </td>
 
                                                     <td>
@@ -215,7 +215,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td>
-                                                        <div align="left" class="style3">Shipper Address : </div>
+                                                        <div align="left" class="style3">Endereço do remetente : </div>
                                                     </td>
 
                                                     <td>
@@ -239,7 +239,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td width="55%" class="style3">
-                                                        <div align="left">Receiver Name : </div>
+                                                        <div align="left">Nome do recebedor : </div>
                                                     </td>
 
                                                     <td width="45%" class="style3">
@@ -251,7 +251,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td class="style3">
-                                                        <div align="left">Receiver Phone : </div>
+                                                        <div align="left">Telefone receptor : </div>
                                                     </td>
 
                                                     <td class="style3">
@@ -264,7 +264,7 @@ if ($no == 1) {
                                                 <tr>
 
                                                     <td class="style3">
-                                                        <div align="left">Receiver Address : </div>
+                                                        <div align="left">Endereço do destinatário : </div>
                                                     </td>
 
                                                     <td class="style3">
@@ -289,7 +289,7 @@ if ($no == 1) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right" width="336">Consignment No : </td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right" width="336">Número da remessa : </td>
 
                                 <td class="style3" bgcolor="#FFFFFF" width="394">
                                     <font color="#FF0000"><?php echo $cons_no; ?></font>&nbsp;
@@ -298,49 +298,49 @@ if ($no == 1) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Ship Type :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Tipo de navio :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $type; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Weight :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Peso :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $weight; ?>&nbsp;kg</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Invoice no :</td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Número da fatura :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $invice_no; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Booking Mode :</td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Modo de reserva :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $book_mode; ?>&nbsp;</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Total freight : </td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Frete total : </td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $freight; ?>&nbsp;Rs.</td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#F3F3F3" align="right">Mode : </td>
+                                <td class="style3" bgcolor="#F3F3F3" align="right">Modo : </td>
 
                                 <td class="style3" bgcolor="#FFFFFF"><?php echo $mode; ?></td>
                             </tr>
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right">Pickup Date/Time :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right">Data/hora de coleta :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF">
 
@@ -360,7 +360,7 @@ if ($no == 1) {
 
                             <tr>
 
-                                <td class="style3" bgcolor="#FFFFFF" align="right" valign="top">Comments :</td>
+                                <td class="style3" bgcolor="#FFFFFF" align="right" valign="top">Comentários :</td>
 
                                 <td class="style3" bgcolor="#FFFFFF">&nbsp;<?php echo $comments; ?></td>
                             </tr>
@@ -565,8 +565,8 @@ else {
 
                                             <tbody>
                                                 <tr>
-                                                    <h3 style="font-family:Verdana; font-size:12px;">Consignment Number <font color="#FF0000"><?php echo $cons; ?></font> not found. Please verify the Number.<br />
-                                                        <a href="search-edit.php">Go Back</a> to Search Again.
+                                                <h3 style="font-family:Verdana; font-size:12px;">Número da remessa <font color="#FF0000"><?php echo $cons; ?></font> não encontrado. Verifique o número.<br />
+                                                        <a href="search-edit.php">Volte</a> para pesquisar novamente.
                                                     </h3>
                                                 </tr>
 
